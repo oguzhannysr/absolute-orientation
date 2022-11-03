@@ -97,7 +97,7 @@ def AbsoluteOrientation(coorTxtPath):
     
     
     #son cisim korrdinatı hesabı istenen nokta
-    def cisimler(x,y,z):
-        yeni_nokta_cisim=np.vstack((x0,y0,z0)) + np.dot(t,np.vstack((x,y,z)))
-        return yeni_nokta_cisim
+def cisimler(x,y,z):
+    yeni_nokta_cisim=np.vstack((x0,y0,z0)) + np.dot(t,np.vstack((x,y,z)))
+    return yeni_nokta_cisim
 
